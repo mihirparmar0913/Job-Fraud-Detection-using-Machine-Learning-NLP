@@ -8,18 +8,22 @@
    Key challenge: Severe class imbalance and higher cost of missing fraudulent jobs compared to false alarms.
 
 📊 Dataset
+
 Source: Fake Job Postings dataset
 Total records: ~18,000+
 
 Target variable:
+
 0 → Genuine job
 1 → Fraudulent job
 
 Class distribution:
+
 Genuine: ~95%
 Fraudulent: ~5% (highly imbalanced)
 
 Key Features Used
+
 Job title
 Location
 Company profile
@@ -29,6 +33,7 @@ Benefits
 All text fields were combined into a single feature for NLP processing.
 
 🛠️ Approach & Methodology
+
 1. Data Preprocessing
 
 Removed non-informative columns (IDs, sparse flags)
@@ -100,6 +105,7 @@ Interpretability is crucial for trust in ML-driven fraud systems
 NLP models can effectively capture scam-specific language patterns
 
 🚀 Future Improvements
+
   Use SMOTE or other resampling techniques
   Experiment with Linear SVM or Gradient Boosting
   Deploy as an API for real-time job screening
