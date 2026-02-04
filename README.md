@@ -1,6 +1,7 @@
 🚨 Job Fraud Detection using Machine Learning (NLP)
 
 📌 Problem Statement
+
    Online job portals are increasingly affected by fraudulent job postings that mislead candidates through fake promises, vague descriptions, and scam-driven       language.
    The objective of this project is to detect fraudulent job postings using machine learning by analyzing job descriptions and related text data.
    Key challenge: Severe class imbalance and higher cost of missing fraudulent jobs compared to false alarms.
